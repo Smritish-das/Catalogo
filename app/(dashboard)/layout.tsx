@@ -83,7 +83,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
             "flex items-center space-x-3 px-4 py-3 bg-accent/50 rounded-2xl",
             isCollapsed && "justify-center"
           )}>
-            <UserButton afterSignOutUrl="/" />
+            <UserButton />
             {!isCollapsed && (
               <div className="flex flex-col min-w-0">
                 <p className="text-sm font-bold truncate">Admin Name</p>

@@ -9,7 +9,6 @@ import {
   Check, 
   Type, 
   FileText, 
-  Instagram,
   Tag,
   Layout
 } from "lucide-react";
@@ -248,7 +247,7 @@ export default function AIStudioPage() {
                   <Card className="bg-white dark:bg-white/5 border-none shadow-lg rounded-[32px] p-8">
                     <div className="flex items-center justify-between mb-4">
                       <div className="flex items-center gap-2 text-xs font-bold text-muted-foreground uppercase tracking-widest">
-                        <Instagram className="w-3 h-3" /> Social Ready
+                        <FaInstagram className="w-3 h-3" /> Social Ready
                       </div>
                       <button onClick={() => copyToClipboard(results.caption, "social")}>
                         {copiedField === "social" ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4" />}
